@@ -1,3 +1,4 @@
 *.suo
 uWin/obj/Debug/
 uWin/bin/Debug/
+uWin/obj/Release/
