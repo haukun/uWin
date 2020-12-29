@@ -13,5 +13,21 @@ namespace uWin
     /// </summary>
     public partial class App : Application
     {
+        //  タスクトレイに表示するアイコン
+        private uNotifyIconWrapper uNotifyIcon;
+
+        //  開始イベント
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+            uNotifyIcon = new uNotifyIconWrapper();
+        }
+
+        //  終了イベント
+        protected override void OnExit(ExitEventArgs e)
+        {
+            base.OnExit(e);
+            uNotifyIcon.Dispose();
+        }
     }
 }

@@ -1,0 +1,4 @@
+﻿* 2020/12/29
+常駐アプリを作る方法
+https://garafu.blogspot.com/2015/06/dev-tasktray-residentapplication.html
+
